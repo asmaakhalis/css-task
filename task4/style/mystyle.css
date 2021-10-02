@@ -1,0 +1,38 @@
+.my-body {
+    background-image: url(../style/imag0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.my-img1 {
+    background-image: url(../style/imag1.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.my-img2 {
+    background-image: url(../style/imag2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.my-img3 {
+    background-image: url(../style/imag3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    margin: 5px;
+}
