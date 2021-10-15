@@ -1,0 +1,27 @@
+.my_div {
+    background-color: blue;
+}
+
+
+/*._my-div{}  ــــــــــــــ(valid)  */
+
+
+/* ..my-div{} ـــــــــــــــ (not valid)*/
+
+
+/* .12my-div{} ــــــــــــــ (not valid)*/
+
+
+/* .%my-div{} ـــــــــــــــ (not valid)*/
+
+
+/* .@my-div{} ــــــــــــــ (not valid)*/
+
+
+/* .my @ div {} ـــــــــــ (not valid)*/
+
+
+/* ._my78div{}  ــــــــــــ( valid)*/
+
+
+/* .div{} ـــــــــــــــ  (not valid)*/
