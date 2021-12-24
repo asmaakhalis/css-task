@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 650px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.graph1 {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #333;
+    cursor: pointer;
+    display: flex;
+    font-weight: bold;
+    font-size: 18;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 0;
+    background-color: #eee;
+    transition: 1s;
+}
+
+
+/* .mygraph {
+    text-align: center;
+} */
+
+.graph1::before,
+.graph1::after {
+    content: " ";
+    position: absolute;
+    background-color: rgb(238, 238, 238);
+    z-index: -1;
+    transition: 1s;
+}
+
+.graph1::before {
+    height: 50px;
+    width: 130px;
+}
+
+.graph1::after {
+    width: 150px;
+    height: 30px;
+}
+
+.graph1:hover::after {
+    height: 0px;
+    background-color: white;
+}
+
+.graph1:hover::before {
+    width: 0px;
+    background-color: white;
+}
+
+.graph1:hover {
+    background-color: white;
+}
