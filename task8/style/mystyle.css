@@ -1,0 +1,473 @@
+/* header */
+
+.mylist {
+    list-style: none;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.my-list1 {
+    display: inline;
+    padding-left: 20px;
+    font-size: 26px;
+    font-weight: bolder;
+    color: rgb(195, 77, 199);
+}
+
+.my-n {
+    color: rgb(47, 202, 163);
+}
+
+.my-n1 {
+    color: rgb(250, 137, 203);
+}
+
+.my-list2 {
+    display: inline-block;
+    padding-left: 200px;
+}
+
+.my-l {
+    display: inline;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(122, 57, 126);
+}
+
+.my-list3 {
+    display: inline;
+    padding-left: 350px;
+}
+
+.my-f {
+    font-weight: bold;
+    background-color: white;
+    color: rgb(195, 77, 199);
+    border-radius: 10px;
+    border-color: rgb(195, 77, 199);
+    width: 90px;
+    height: 30px;
+}
+
+
+/* end header */
+
+
+/* start section 1 div 1 */
+
+.mydiv1 {
+    width: 50%;
+    height: 50%;
+    padding-top: 80px;
+    padding-left: 100px;
+    display: inline-block;
+}
+
+.mytext {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(195, 77, 199);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.my-p {
+    font-size: medium;
+}
+
+.mybutton {
+    border-color: rgb(195, 77, 199);
+    background-color: white;
+    color: rgb(195, 77, 199);
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: rgb(195, 77, 199);
+    color: white;
+}
+
+.my-m1 {
+    width: 40%;
+    height: 40%;
+    display: inline-block;
+    padding-top: 60px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+
+/* end section 1 div1 */
+
+
+/*  start section 2 div 2 */
+
+.my-div2 {
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.photo1 {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+
+.my-art {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-top: 0px;
+    height: 300px;
+    text-align: center;
+}
+
+.my-h1 {
+    color: rgb(195, 77, 199);
+    font-weight: bold;
+    font-size: x-large;
+    text-align: left;
+}
+
+.my-p1 {
+    text-align: justify;
+    font-size: large;
+}
+
+
+/* end section 2 div 2 */
+
+
+/* start section 3 div 3 */
+
+.my-div3 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.my-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.my-service1 {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(165, 109, 167);
+}
+
+.my-service1 p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.my-service2 {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(109, 157, 173);
+}
+
+.my-service2 p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.my-service3 {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(118, 180, 118);
+}
+
+.my-service3 p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.my-service4 {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(165, 109, 167);
+}
+
+.my-service4 p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.my-service {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+/* end section 3 div 3 */
+
+
+/* start section 4 div 4 */
+
+.my-div4 {
+    margin-top: 80px;
+}
+
+.e1,
+.e2,
+.e3,
+.e4 {
+    position: relative;
+    counter-increment: user-counter;
+}
+
+.my-end1,
+.my-end2,
+.my-end3,
+.my-end4 {
+    margin-bottom: 20px;
+    width: 500px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    border-color: white;
+}
+
+
+/* start button 1*/
+
+.my-end1 {
+    background-color: rgb(118, 180, 118);
+    display: inline-block;
+}
+
+.my-end1::after {
+    content: "   ";
+    background-image: url(../style/img/m2.jpg);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 420px;
+    bottom: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.my-end1::before {
+    content: counter(user-counter);
+    background-color: rgb(194, 224, 235);
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 420px;
+    bottom: 27px;
+    border-radius: 10px;
+}
+
+
+/* end button1 */
+
+
+/* start button2 */
+
+.my-end2 {
+    background-color: rgb(109, 157, 173);
+    display: inline-block;
+}
+
+.my-end2::before {
+    content: "   ";
+    background-image: url(../style/img/m4.jpg);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 420px;
+    bottom: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.my-end2::after {
+    content: counter(user-counter);
+    background-color: rgb(181, 236, 181);
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 420px;
+    bottom: 27px;
+    border-radius: 10px;
+}
+
+
+/* end button 2 */
+
+
+/* start button 3 */
+
+.my-end3 {
+    background-color: rgb(118, 180, 118);
+    display: inline-block;
+}
+
+.my-end3::after {
+    content: "   ";
+    background-image: url(../style/img/m2.jpg);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 420px;
+    bottom: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.my-end3::before {
+    content: counter(user-counter);
+    background-color: rgb(194, 224, 235);
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 420px;
+    bottom: 27px;
+    border-radius: 10px;
+}
+
+
+/* end button3 */
+
+
+/* start button4 */
+
+.my-end4 {
+    background-color: rgb(109, 157, 173);
+    display: inline-block;
+}
+
+.my-end4::before {
+    content: "   ";
+    background-image: url(../style/img/m4.jpg);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 420px;
+    bottom: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.my-end4::after {
+    content: counter(user-counter);
+    background-color: rgb(181, 236, 181);
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 420px;
+    bottom: 27px;
+    border-radius: 10px;
+}
+
+
+/* end button4 */
+
+
+/*  start arrow 1 */
+
+.e1::before {
+    content: "   ";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 367px;
+    bottom: 20px;
+    border: 30px solid;
+    border-color: transparent rgb(194, 224, 235) transparent transparent;
+}
+
+
+/* end arrow 1 */
+
+
+/* start arrow 2 */
+
+.e2::after {
+    content: "   ";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    right: 367px;
+    bottom: 20px;
+    border: 30px solid;
+    border-color: transparent transparent transparent rgb(181, 236, 181);
+}
+
+
+/* end arrow 2 */
+
+
+/* start arrow 3 */
+
+.e3::before {
+    content: "   ";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 367px;
+    bottom: 20px;
+    border: 30px solid;
+    border-color: transparent rgb(194, 224, 235) transparent transparent;
+}
+
+
+/* end arrow 3 */
+
+
+/* start arrow 4 */
+
+.e4::after {
+    content: "   ";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    right: 367px;
+    bottom: 20px;
+    border: 30px solid;
+    border-color: transparent transparent transparent rgb(181, 236, 181);
+}
+
+
+/* end arrow 4 */
+
+
+/* end section 4 div 4 */
+
+
+/* start section 5 */
+
+.my-footer {
+    margin-top: 50px;
+    height: 100px;
+    background-color: rgb(109, 157, 173);
+}
+
+
+/* end section 5 */
